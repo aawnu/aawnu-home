@@ -1,0 +1,18 @@
+@import '@fontsource-variable/maven-pro';
+@import '@fontsource-variable/playfair-display';
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/yrsa';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		@apply bg-brand-dark font-inter font-normal text-brand-light;
+	}
+
+	svg {
+		@apply align-[-0.1em] text-inherit;
+	}
+}
