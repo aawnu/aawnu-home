@@ -5,9 +5,9 @@
   import Copyright from "phosphor-svelte/lib/Copyright";
 </script>
 
-<div class="min-h-[75vh]">
+<main class="min-h-[75vh]">
   <slot />
-</div>
+</main>
 
 <footer>
   <div class="container mx-auto">

@@ -20,16 +20,14 @@
   <meta property="og:profile:gender" content="male" />
 </svelte:head>
 
-<div class="bg-gradient-to-b from-brand-darkline to-transparent">
-  <header class="container mx-auto">
-    <div class="flex min-h-[50vh] flex-col items-center justify-end p-4">
-      <img class="max-h-[20vh] rounded-full" src="/img/alex-ahlgreen-westergaard-bw-suit-sq.jpg" alt="Alex Ahlgreen Westergaard" />
-      <h1 class="mt-4 text-center text-4xl font-black">Alex Ahlgreen Westergaard</h1>
-    </div>
-  </header>
-</div>
+<header class="container mx-auto">
+  <div class="flex min-h-[45vh] flex-col items-center justify-end p-4">
+    <img class="max-h-[20vh] rounded-full" src="/img/alex-ahlgreen-westergaard-bw-suit-sq.jpg" alt="Alex Ahlgreen Westergaard" />
+    <h1 class="mt-4 text-center text-4xl font-black">Alex Ahlgreen Westergaard</h1>
+  </div>
+</header>
 
-<main class="container mx-auto">
+<div class="container mx-auto">
   <nav class="flex items-center justify-center gap-x-8 px-4 py-2 text-2xl">
     <a class="text-brand-link" href="https://instagram.com/aawnu" target="_blank" rel="noopener noreferrer">
       <InstagramLogo weight="bold" />
@@ -47,4 +45,25 @@
       <PaperPlaneTilt weight="bold" />
     </a>
   </nav>
-</main>
+
+  <div class="my-4 flex flex-col items-center justify-center p-4">
+    <h2 class="max-w-[24rem] text-center text-lg font-black italic">ENTREPRENEURIAL MIND &amp; TECHIE;</h2>
+    <p class="max-w-[24rem] text-center text-lg font-thin italic">
+      I love puzzling with investments and new business opportunities when I'm not helping content creators obey the law. <a
+        class="font-normal text-brand-link"
+        href="https://linkedin.com/in/alexwestergaard/"
+        target="_blank"
+        rel="noopener noreferrer">Currently open to work!</a>
+    </p>
+  </div>
+</div>
+
+<style>
+  :global(html) {
+    background-image: url("/img/bg_mark_sm.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: scroll;
+  }
+</style>
