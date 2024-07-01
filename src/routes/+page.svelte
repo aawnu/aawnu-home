@@ -1,9 +1,9 @@
 <script>
-  import InstagramLogo from "phosphor-svelte/lib/InstagramLogo";
-  import LinkedinLogo from "phosphor-svelte/lib/LinkedinLogo";
-  import GithubLogo from "phosphor-svelte/lib/GithubLogo";
-  import StackOverflowLogo from "phosphor-svelte/lib/StackOverflowLogo";
-  import PaperPlaneTilt from "phosphor-svelte/lib/PaperPlaneTilt";
+  import InstagramLogo from 'phosphor-svelte/lib/InstagramLogo'
+  import LinkedinLogo from 'phosphor-svelte/lib/LinkedinLogo'
+  import GithubLogo from 'phosphor-svelte/lib/GithubLogo'
+  import StackOverflowLogo from 'phosphor-svelte/lib/StackOverflowLogo'
+  import PaperPlaneTilt from 'phosphor-svelte/lib/PaperPlaneTilt'
 </script>
 
 <svelte:head>
@@ -49,21 +49,15 @@
   <div class="my-4 flex flex-col items-center justify-center p-4">
     <h2 class="max-w-[24rem] text-center text-lg font-black italic">ENTREPRENEURIAL MIND &amp; TECHIE;</h2>
     <p class="max-w-[24rem] text-center text-lg font-thin italic">
-      I love puzzling with investments and new business opportunities when I'm not helping content creators obey the law. <a
-        class="font-normal text-brand-link"
-        href="https://linkedin.com/in/alexwestergaard/"
-        target="_blank"
-        rel="noopener noreferrer">Currently open to work!</a>
+      I love puzzling with programming, investments and new business opportunities when I'm not helping content creators obey the law.
+    </p>
+    <p class="my-4 max-w-[24rem] text-center">
+      <a class="text-xl font-medium text-brand-link" href="https://linkedin.com/in/alexwestergaard/" target="_blank" rel="noopener noreferrer">
+        Currently open to work!
+      </a>
+      <span class="block text-sm font-light">
+        (Check my stack experience <a class="hover:text-brand-link" href="https://github.com/aawnu" target="_blank" rel="noopener noreferrer">on github</a>)
+      </span>
     </p>
   </div>
 </div>
-
-<style>
-  :global(html) {
-    background-image: url("/img/bg_mark_sm.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    background-attachment: scroll;
-  }
-</style>

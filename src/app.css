@@ -1,18 +1,23 @@
-@import '@fontsource-variable/maven-pro';
-@import '@fontsource-variable/playfair-display';
-@import '@fontsource-variable/inter';
-@import '@fontsource-variable/yrsa';
+@import "@fontsource-variable/maven-pro";
+@import "@fontsource-variable/playfair-display";
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/yrsa";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-	html {
-		@apply bg-brand-dark font-inter font-normal text-brand-light;
-	}
+  html {
+    background-image: url("/img/bg_mark_sm.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: scroll;
+    @apply bg-brand-dark font-inter font-normal text-brand-light;
+  }
 
-	svg {
-		@apply align-[-0.1em] text-inherit;
-	}
+  svg {
+    @apply align-[-0.1em] text-inherit;
+  }
 }
