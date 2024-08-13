@@ -1,23 +1,24 @@
-@import "@fontsource-variable/maven-pro";
-@import "@fontsource-variable/playfair-display";
-@import "@fontsource-variable/inter";
-@import "@fontsource-variable/yrsa";
+@import '@fontsource-variable/manrope';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-  html {
-    background-image: url("/img/bg_mark_sm.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    background-attachment: scroll;
-    @apply bg-brand-dark font-inter font-normal text-brand-light;
+  * {
+    @apply border-border;
   }
+  body {
+    @apply bg-background font-manrope text-foreground;
+  }
+}
 
-  svg {
-    @apply align-[-0.1em] text-inherit;
+@layer components {
+  .herobg {
+    @apply bg-scroll bg-center bg-repeat;
+    background-image: url('/src/bg/repeated-triangles.png');
+    box-shadow:
+      inset 24px 24px 42px #fff,
+      inset -24px -24px 42px #fff;
   }
 }
