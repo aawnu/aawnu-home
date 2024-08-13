@@ -1,29 +1,71 @@
-<script>
+<script lang="ts">
   import '../app.css'
-  import Keyhole from 'phosphor-svelte/lib/Keyhole'
+  import LinkedinLogo from 'phosphor-svelte/lib/LinkedinLogo'
+  import GithubLogo from 'phosphor-svelte/lib/GithubLogo'
   import PaperPlaneTilt from 'phosphor-svelte/lib/PaperPlaneTilt'
+  import InstagramLogo from 'phosphor-svelte/lib/InstagramLogo'
   import GlobeX from 'phosphor-svelte/lib/GlobeX'
-  import Copyright from 'phosphor-svelte/lib/Copyright'
+  import Certificate from 'phosphor-svelte/lib/Certificate'
+  import Handshake from 'phosphor-svelte/lib/Handshake'
+  import StackOverflowLogo from 'phosphor-svelte/lib/StackOverflowLogo'
+  import Button from '$lib/components/ui/button/button.svelte'
 </script>
 
-<main class="min-h-[75vh]">
+<div class="min-h-[calc(100vh-6rem)]">
+  <header>
+    <div class="container flex flex-wrap items-center justify-between gap-x-8 gap-y-2 py-8">
+      <a class="text-xl font-black" href="/"> AAW </a>
+      <nav>
+        <a class="group" href="https://instagram.com/aawnu" target="_blank" rel="noopener noreferrer">
+          <Button class="text-lg hover:bg-transparent" size="icon" variant="ghost">
+            <InstagramLogo class="group-hover:fill-primary" />
+          </Button>
+        </a>
+        <a class="group" href="https://linkedin.com/in/alexwestergaard/" target="_blank" rel="noopener noreferrer">
+          <Button class="text-lg hover:bg-transparent" size="icon" variant="ghost">
+            <LinkedinLogo class="group-hover:fill-primary" />
+          </Button>
+        </a>
+        <a class="group" href="https://github.com/aawnu" target="_blank" rel="noopener noreferrer">
+          <Button class="text-lg hover:bg-transparent" size="icon" variant="ghost">
+            <GithubLogo class="group-hover:fill-primary" />
+          </Button>
+        </a>
+        <a class="group" href="https://stackoverflow.com/users/1777189/alex-ahlgreen-westergaard" target="_blank" rel="noopener noreferrer">
+          <Button class="text-lg hover:bg-transparent" size="icon" variant="ghost">
+            <StackOverflowLogo class="group-hover:fill-primary" />
+          </Button>
+        </a>
+        <a class="group" href="mailto:aaw@aaw.nu" target="_blank" rel="noopener noreferrer">
+          <Button class="text-lg hover:bg-transparent" size="icon" variant="ghost">
+            <PaperPlaneTilt class="group-hover:fill-primary" />
+          </Button>
+        </a>
+      </nav>
+    </div>
+  </header>
+
   <slot />
-</main>
+</div>
 
 <footer>
-  <div class="container mx-auto">
-    <div class="flex items-center justify-center gap-x-6 p-4 text-sm font-light">
-      <div><Copyright weight="light" class="inline-block" /> 2024</div>
-      <div><GlobeX weight="light" class="inline-block" /> Denmark</div>
-      <div>
-        <a class="text-brand-link" href="/privacy" rel="noopener noreferrer">
-          <Keyhole weight="light" class="inline-block" /> Privacy
-        </a>
+  <div class="container py-4">
+    <div class="flex flex-wrap items-center justify-between gap-x-8 gap-y-2">
+      <div class="flex flex-wrap items-center gap-x-8 gap-y-2">
+        <div>2024 &copy; Alex Ahlgreen Westergaard</div>
+        <div><GlobeX weight="light" class="inline-block" /> Skive, Denmark</div>
       </div>
-      <div>
-        <a class="text-brand-link" href="mailto:aaw@aaw.nu" rel="noopener noreferrer">
-          <PaperPlaneTilt weight="light" class="inline-block" /> aaw@aaw.nu
-        </a>
+      <div class="flex flex-wrap items-center gap-x-8 gap-y-2">
+        <div>
+          <a class="text-primary" href="/src/diploma/gdpr-da-diplom-neo-compliance.pdf" target="_blank">
+            <Certificate weight="light" class="inline-block fill-foreground" /> GDPR Compliant
+          </a>
+        </div>
+        <div>
+          <a class="text-primary" href="/privacy">
+            <Handshake weight="light" class="inline-block fill-foreground" /> Your Privacy
+          </a>
+        </div>
       </div>
     </div>
   </div>
