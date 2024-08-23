@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-  <title>AAW | Alex Ahlgreen Westergaard</title>
+  <title>Alex Ahlgreen Westergaard</title>
   <meta name="description" content="I develop web software, invest in businesses & play video games." />
   <meta property="og:url" content="https://aaw.nu/" />
   <meta property="og:site_name " content="AAW" />
@@ -18,13 +18,14 @@
   <meta property="og:title" content="Alex Ahlgreen Westergaard" />
   <meta property="og:description" content="I develop web software, invest in businesses & play video games." />
   <meta property="og:type" content="profile" />
+  <meta property="og:image" content="https://aaw.nu/src/me/alex-in-suit.jpg" />
   <meta property="og:profile:first_name" content="Alex" />
   <meta property="og:profile:last_name" content="Ahlgreen Westergaard" />
   <meta property="og:profile:gender" content="male" />
 </svelte:head>
 
-<div class="herobg">
-  <div class="container grid min-h-[65vh] grid-cols-1 items-center py-12">
+<div class="herobg px-4">
+  <div class="container grid grid-cols-1 items-center py-16">
     <div class="z-10 col-start-1 row-start-1">
       <h1 class="text-center text-4xl font-black !leading-tight sm:text-5xl md:text-6xl lg:text-left">
         <span class="inline text-slate-900 md:block">I develop web software,</span>
@@ -64,16 +65,32 @@
   </div>
 </div>
 
-<div class="bg-slate-50 bg-[url(/src/bg/seamless_paper_texture.png)] bg-blend-luminosity shadow-inner">
-  <div class="container py-12">
-    <div class="justify-ceenter grid auto-rows-max grid-cols-1 place-items-center items-center gap-x-12 gap-y-6 sm:grid-cols-2 lg:grid-cols-4">
-      <Proxyseed class="max-h-[4rem] max-w-[12rem] fill-slate-700" />
+<div class="container bg-slate-50 bg-[url(/src/bg/seamless_paper_texture.png)] px-8 py-12 shadow-inner 2xl:rounded-xl">
+  <div class="justify-ceenter grid auto-rows-max grid-cols-1 place-items-center items-center gap-x-12 gap-y-6 sm:grid-cols-2 lg:grid-cols-4">
+    <Proxyseed class="max-h-[4rem] max-w-[12rem] fill-slate-700" />
 
-      <Northbased class="max-h-[4rem] max-w-[12rem] fill-slate-700" />
+    <Northbased class="max-h-[4rem] max-w-[12rem] fill-slate-700" />
 
-      <Skaber class="max-h-[4rem] max-w-[12rem] fill-slate-700" />
+    <Skaber class="max-h-[4rem] max-w-[12rem] fill-slate-700" />
 
-      <Finansteori class="max-h-[4rem] max-w-[12rem] fill-slate-700" />
-    </div>
+    <Finansteori class="max-h-[4rem] max-w-[12rem] fill-slate-700" />
+  </div>
+</div>
+
+<div class="container max-w-screen-md px-8 py-12">
+  <div class="space-y-2">
+    <h2 class="text-xl font-medium leading-none"><span class="font-black">Atychiphobia:</span> The Rat Race Begins</h2>
+    <p class="leading-relaxed">
+      I began my business adventure at the age of 12-13, driven by the fear that the government could turn your life upside down at any time. I'm networking
+      with and looking into business owners all across the world to figure out how to make it out of the so-called Rat Race. I was struck with a great fear of
+      failure, which was compounded by school teachers and tutors pointing out that I would amount to nothing. Opening a downward spiral of unsuccessful
+      initiatives and entry-level jobs with no progress.
+    </p>
+    <p class="leading-relaxed">
+      It would take me around 16 years to develop the capacity to see past other people's opinions and acquire momentum in trying new activities, regardless of
+      the drawbacks and dangers involved. Allow me to attempt to be alright with unforeseen situations and find the strength to face any difficulties that may
+      arise. It feels like a new beginning, but it's really simply the start of the next chapter.
+    </p>
+    <p class="leading-relaxed">You could call this my <b class="underline underline-offset-4">Just Do It</b> phase against all odds.</p>
   </div>
 </div>
