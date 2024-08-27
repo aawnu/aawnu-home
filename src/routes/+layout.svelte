@@ -11,7 +11,7 @@
   import Button from '$lib/components/ui/button/button.svelte'
 </script>
 
-<div class="min-h-[calc(100vh-6rem)]">
+<div class="min-h-[75vh]">
   <header class="px-8">
     <div class="container flex flex-wrap items-center justify-between gap-x-8 gap-y-2 py-8">
       <a class="text-xl font-black hover:text-primary" href="/"> AAW </a>
