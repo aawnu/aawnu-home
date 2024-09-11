@@ -43,15 +43,6 @@
           variant="ghost">
           <GithubLogo class="group-hover:fill-primary" />
         </Button>
-        <Button
-          href="https://stackoverflow.com/users/1777189/alex-ahlgreen-westergaard"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="group text-lg hover:bg-transparent"
-          size="icon"
-          variant="ghost">
-          <StackOverflowLogo class="group-hover:fill-primary" />
-        </Button>
         <Button href="mailto:aaw@aaw.nu" target="_blank" rel="noopener noreferrer" class="group text-lg hover:bg-transparent" size="icon" variant="ghost">
           <PaperPlaneTilt class="group-hover:fill-primary" />
         </Button>

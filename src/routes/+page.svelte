@@ -1,4 +1,5 @@
 <script lang="ts">
+  import ArrowSquareOut from 'phosphor-svelte/lib/ArrowSquareOut'
   import LinkedinLogo from 'phosphor-svelte/lib/LinkedinLogo'
   import GithubLogo from 'phosphor-svelte/lib/GithubLogo'
   import PaperPlaneTilt from 'phosphor-svelte/lib/PaperPlaneTilt'
@@ -7,6 +8,8 @@
   import Proxyseed from '$lib/icons/proxyseed.svelte'
   import Skaber from '$lib/icons/skaber.svelte'
   import Finansteori from '$lib/icons/finansteori.svelte'
+  import * as HoverCard from '$lib/components/ui/hover-card/index.js'
+  import Streampo1nt from '$lib/icons/streampo1nt.svelte'
 </script>
 
 <svelte:head>
@@ -24,56 +27,133 @@
   <meta property="og:profile:gender" content="male" />
 </svelte:head>
 
-<div class="herobg px-4">
-  <div class="container grid grid-cols-1 items-center py-16">
-    <div class="z-10 col-start-1 row-start-1">
-      <h1 class="text-center text-4xl font-black !leading-tight sm:text-5xl md:text-6xl lg:text-left">
-        <span class="inline text-slate-900 md:block">I develop web software,</span>
-        <span class="inline text-slate-800 md:block">invest in businesses &amp;</span>
-        <span class="inline text-slate-700 md:block">play video games.</span>
-      </h1>
-      <div class="mt-8 flex justify-center gap-x-2 lg:justify-start">
-        <a href="mailto:aaw@aaw.nu" target="_blank" rel="noopener noreferrer">
-          <Button class="font-black">
-            <PaperPlaneTilt class="mr-2 text-lg leading-none" weight="bold" /> I'm available for hire!
-          </Button>
-        </a>
-        <a class="group" href="https://linkedin.com/in/alexwestergaard/" target="_blank" rel="noopener noreferrer">
-          <Button size="icon" variant="outline">
-            <LinkedinLogo class="text-lg leading-none group-hover:fill-primary" />
-          </Button>
-        </a>
-        <a class="group" href="https://github.com/aawnu" target="_blank" rel="noopener noreferrer">
-          <Button size="icon" variant="outline">
-            <GithubLogo class="text-lg leading-none group-hover:fill-primary" />
-          </Button>
-        </a>
+<div class="herobg">
+  <div class="px-4">
+    <div class="container grid grid-cols-1 items-center py-16">
+      <div class="z-10 col-start-1 row-start-1">
+        <h1 class="text-center text-4xl font-black !leading-tight sm:text-5xl md:text-6xl lg:text-left">
+          <span class="inline text-slate-900 md:block">I develop web software,</span>
+          <span class="inline text-slate-800 md:block">invest in businesses &amp;</span>
+          <span class="inline text-slate-700 md:block">play video games.</span>
+        </h1>
+        <div class="mt-8 flex justify-center gap-x-2 lg:justify-start">
+          <a href="mailto:aaw@aaw.nu" target="_blank" rel="noopener noreferrer">
+            <Button class="font-black">
+              <PaperPlaneTilt class="mr-2 text-lg leading-none" weight="bold" /> I'm available for hire!
+            </Button>
+          </a>
+          <a class="group" href="https://linkedin.com/in/alexwestergaard/" target="_blank" rel="noopener noreferrer">
+            <Button size="icon" variant="outline">
+              <LinkedinLogo class="text-lg leading-none group-hover:fill-primary" />
+            </Button>
+          </a>
+          <a class="group" href="https://github.com/aawnu" target="_blank" rel="noopener noreferrer">
+            <Button size="icon" variant="outline">
+              <GithubLogo class="text-lg leading-none group-hover:fill-primary" />
+            </Button>
+          </a>
+        </div>
+      </div>
+      <div class="col-start-1 row-start-1 flex flex-wrap items-center justify-center gap-4 md:flex-nowrap lg:justify-end">
+        <img
+          class="hidden h-[50vh] max-h-[28rem] rounded-xl opacity-[.20] sm:block lg:opacity-[.10]"
+          src="/src/me/alex-in-blazer.jpg"
+          alt="Alex with icecream" />
+        <img
+          class="hidden h-[50vh] max-h-[28rem] rounded-xl opacity-[.20] lg:opacity-[.30] xl:block"
+          src="/src/me/alex-with-icecream.jpg"
+          alt="Alex with icecream" />
+        <img
+          class="hidden h-[50vh] max-h-[28rem] rounded-xl opacity-[.20] md:block lg:opacity-[.40] xl:opacity-[.60]"
+          src="/src/me/alex-in-jordan-tshirt.jpg"
+          alt="Alex in Jordan T-Shirt" />
+        <img class="block h-[50vh] max-h-[28rem] rounded-xl opacity-[.20] lg:opacity-100" src="/src/me/alex-in-suit.jpg" alt="Alex in Suit" />
       </div>
     </div>
-    <div class="col-start-1 row-start-1 flex flex-wrap items-center justify-center gap-4 md:flex-nowrap lg:justify-end">
-      <img class="hidden h-[50vh] max-h-[28rem] rounded-xl opacity-[.20] sm:block lg:opacity-[.10]" src="/src/me/alex-in-blazer.jpg" alt="Alex with icecream" />
-      <img
-        class="hidden h-[50vh] max-h-[28rem] rounded-xl opacity-[.20] lg:opacity-[.30] xl:block"
-        src="/src/me/alex-with-icecream.jpg"
-        alt="Alex with icecream" />
-      <img
-        class="hidden h-[50vh] max-h-[28rem] rounded-xl opacity-[.20] md:block lg:opacity-[.40] xl:opacity-[.60]"
-        src="/src/me/alex-in-jordan-tshirt.jpg"
-        alt="Alex in Jordan T-Shirt" />
-      <img class="block h-[50vh] max-h-[28rem] rounded-xl opacity-[.20] lg:opacity-100" src="/src/me/alex-in-suit.jpg" alt="Alex in Suit" />
-    </div>
   </div>
-</div>
 
-<div class="container bg-slate-50 bg-[url(/src/bg/seamless_paper_texture.png)] px-8 py-12 shadow-inner 2xl:rounded-xl">
-  <div class="justify-ceenter grid auto-rows-max grid-cols-1 place-items-center items-center gap-x-12 gap-y-6 sm:grid-cols-2 lg:grid-cols-4">
-    <Proxyseed class="max-h-[4rem] max-w-[12rem] fill-slate-700" />
+  <div class="container bg-slate-50 bg-[url(/src/bg/seamless_paper_texture.png)] px-8 py-12 shadow-inner 2xl:rounded-xl">
+    <div class="grid auto-rows-max grid-cols-2 items-center justify-center gap-x-12 gap-y-8 sm:grid-cols-3 lg:grid-cols-5">
+      <div class="flex items-center justify-center">
+        <HoverCard.Root>
+          <HoverCard.Trigger>
+            <Proxyseed class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
+          </HoverCard.Trigger>
+          <HoverCard.Content class="w-full max-w-96">
+            <p class="leading-normal">Intermediary company to invest in interesting people and business ventures.</p>
+            <p class="mt-2 text-sm font-bold leading-tight">
+              <a class="text-primary" href="mailto:aaw@proxyseed.com" target="_blank" rel="noopener noreferrer">
+                <PaperPlaneTilt class="text-icon" weight="bold" /> aaw@proxyseed.com
+              </a>
+            </p>
+          </HoverCard.Content>
+        </HoverCard.Root>
+      </div>
 
-    <Northbased class="max-h-[4rem] max-w-[12rem] fill-slate-700" />
+      <div class="flex items-center justify-center">
+        <HoverCard.Root>
+          <HoverCard.Trigger>
+            <Northbased class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
+          </HoverCard.Trigger>
+          <HoverCard.Content class="w-full max-w-96">
+            <p class="leading-normal">Helping businesses be present and/or bring their infrastructure online.</p>
+            <p class="mt-2 text-sm font-bold leading-tight">
+              <a class="text-primary" href="http://northbased.net?ref=aaw.nu" target="_blank" rel="noopener noreferrer">
+                <ArrowSquareOut class="text-icon" weight="bold" /> Northbased.net
+              </a>
+            </p>
+          </HoverCard.Content>
+        </HoverCard.Root>
+      </div>
 
-    <Skaber class="max-h-[4rem] max-w-[12rem] fill-slate-700" />
+      <div class="flex items-center justify-center">
+        <HoverCard.Root>
+          <HoverCard.Trigger>
+            <Skaber class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
+          </HoverCard.Trigger>
+          <HoverCard.Content class="w-full max-w-96">
+            <p class="leading-normal">Helping content creators collaborate with businesses more transparently.</p>
+            <p class="mt-2 text-sm font-bold leading-tight">
+              <a class="text-primary" href="http://skaber.net?ref=aaw.nu" target="_blank" rel="noopener noreferrer">
+                <ArrowSquareOut class="text-icon" weight="bold" /> Skaber.net
+              </a>
+            </p>
+          </HoverCard.Content>
+        </HoverCard.Root>
+      </div>
 
-    <Finansteori class="max-h-[4rem] max-w-[12rem] fill-slate-700" />
+      <div class="flex items-center justify-center">
+        <HoverCard.Root>
+          <HoverCard.Trigger>
+            <Streampo1nt class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
+          </HoverCard.Trigger>
+          <HoverCard.Content class="w-full max-w-96">
+            <p class="leading-normal">Promoting organisations and events through content production and influencers.</p>
+            <p class="mt-2 text-sm font-bold leading-tight">
+              <a class="text-primary" href="http://streampo1nt.com?ref=aaw.nu" target="_blank" rel="noopener noreferrer">
+                <ArrowSquareOut class="text-icon" weight="bold" /> Streampo1nt.com
+              </a>
+            </p>
+          </HoverCard.Content>
+        </HoverCard.Root>
+      </div>
+
+      <div class="flex items-center justify-center">
+        <HoverCard.Root>
+          <HoverCard.Trigger>
+            <Finansteori class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
+          </HoverCard.Trigger>
+          <HoverCard.Content class="w-full max-w-96">
+            <p class="leading-normal">Danish blog about improving personal finances and how to start investing.</p>
+            <p class="mt-2 text-sm font-bold leading-tight">
+              <a class="text-primary" href="http://finansteori.dk?ref=aaw.nu" target="_blank" rel="noopener noreferrer">
+                <ArrowSquareOut class="text-icon" weight="bold" /> Finansteori.dk
+              </a>
+            </p>
+          </HoverCard.Content>
+        </HoverCard.Root>
+      </div>
+    </div>
   </div>
 </div>
 

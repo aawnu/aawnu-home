@@ -11,6 +11,9 @@
   body {
     @apply bg-background font-manrope text-foreground;
   }
+  .text-icon {
+    @apply inline-block align-[-0.15em] h-[1.15em] w-[1.15em]
+  }
 }
 
 @layer components {
