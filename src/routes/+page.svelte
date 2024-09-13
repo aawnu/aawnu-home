@@ -72,13 +72,14 @@
     </div>
   </div>
 
-  <div class="container bg-slate-50 bg-[url(/src/bg/seamless_paper_texture.png)] px-8 py-12 shadow-inner 2xl:rounded-xl">
+  <div class="container bg-background px-8 py-12 2xl:rounded-t-lg">
     <div class="grid auto-rows-max grid-cols-2 items-center justify-center gap-x-12 gap-y-8 sm:grid-cols-3 lg:grid-cols-5">
       <HoverCard.Root>
         <HoverCard.Trigger class="flex items-center justify-center">
-          <Proxyseed class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
+          <Proxyseed class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-800" />
         </HoverCard.Trigger>
         <HoverCard.Content class="w-full max-w-96">
+          <h6 class="font-black leading-tight">PROXYSEED</h6>
           <p class="leading-normal">Intermediary company to invest in interesting people and business ventures.</p>
           <p class="mt-2 text-sm font-bold leading-tight">
             <a class="text-primary" href="mailto:aaw@proxyseed.com" target="_blank" rel="noopener noreferrer">
@@ -90,9 +91,10 @@
 
       <HoverCard.Root>
         <HoverCard.Trigger class="flex items-center justify-center">
-          <Northbased class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
+          <Northbased class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-800" />
         </HoverCard.Trigger>
         <HoverCard.Content class="w-full max-w-96">
+          <h6 class="font-black leading-tight">Northbased</h6>
           <p class="leading-normal">Helping businesses be present and/or bring their infrastructure online.</p>
           <p class="mt-2 text-sm font-bold leading-tight">
             <a class="text-primary" href="http://northbased.net?ref=aaw.nu" target="_blank" rel="noopener noreferrer">
@@ -104,9 +106,10 @@
 
       <HoverCard.Root>
         <HoverCard.Trigger class="flex items-center justify-center">
-          <Skaber class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
+          <Skaber class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-800" />
         </HoverCard.Trigger>
         <HoverCard.Content class="w-full max-w-96">
+          <h6 class="font-black leading-tight">SKABER</h6>
           <p class="leading-normal">Helping content creators collaborate with businesses more transparently.</p>
           <p class="mt-2 text-sm font-bold leading-tight">
             <a class="text-primary" href="http://skaber.net?ref=aaw.nu" target="_blank" rel="noopener noreferrer">
@@ -118,9 +121,10 @@
 
       <HoverCard.Root>
         <HoverCard.Trigger class="flex items-center justify-center">
-          <Streampo1nt class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
+          <Streampo1nt class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-800" />
         </HoverCard.Trigger>
         <HoverCard.Content class="w-full max-w-96">
+          <h6 class="font-black leading-tight">STREAMPO1NT</h6>
           <p class="leading-normal">Promoting organisations and events through content production and influencers.</p>
           <p class="mt-2 text-sm font-bold leading-tight">
             <a class="text-primary" href="http://streampo1nt.com?ref=aaw.nu" target="_blank" rel="noopener noreferrer">
@@ -132,9 +136,10 @@
 
       <HoverCard.Root>
         <HoverCard.Trigger class="flex items-center justify-center">
-          <Finansteori class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
+          <Finansteori class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-800" />
         </HoverCard.Trigger>
         <HoverCard.Content class="w-full max-w-96">
+          <h6 class="font-black leading-tight">Finansteori</h6>
           <p class="leading-normal">Danish blog about improving personal finances and how to start investing.</p>
           <p class="mt-2 text-sm font-bold leading-tight">
             <a class="text-primary" href="http://finansteori.dk?ref=aaw.nu" target="_blank" rel="noopener noreferrer">
@@ -147,20 +152,22 @@
   </div>
 </div>
 
-<div class="container max-w-screen-md px-8 py-12">
-  <div class="space-y-2">
-    <h2 class="text-xl font-medium leading-none"><span class="font-black">Atychiphobia:</span> The Rat Race Begins</h2>
-    <p class="leading-relaxed">
-      I began my business adventure at the age of 12-13, driven by the fear that the government could turn your life upside down at any time. I'm networking
-      with and looking into business owners all across the world to figure out how to make it out of the so-called Rat Race. I was struck with a great fear of
-      failure, which was compounded by school teachers and tutors pointing out that I would amount to nothing. Opening a downward spiral of unsuccessful
-      initiatives and entry-level jobs with no progress.
-    </p>
-    <p class="leading-relaxed">
-      It would take me around 16 years to develop the capacity to see past other people's opinions and acquire momentum in trying new activities, regardless of
-      the drawbacks and dangers involved. Allow me to attempt to be alright with unforeseen situations and find the strength to face any difficulties that may
-      arise. It feels like a new beginning, but it's really simply the start of the next chapter.
-    </p>
-    <p class="leading-relaxed">You could call this my <b class="underline underline-offset-4">Just Do It</b> phase against all odds.</p>
+<div class="col-start-1 col-end-2 row-start-2 row-end-3">
+  <div class="container max-w-screen-md px-8 py-12">
+    <div class="space-y-2">
+      <h2 class="text-xl font-medium leading-none"><span class="font-black">Atychiphobia:</span> The Rat Race Begins</h2>
+      <p class="leading-relaxed">
+        I began my business adventure at the age of 12-13, driven by the fear that the government could turn your life upside down at any time. I'm networking
+        with and looking into business owners all across the world to figure out how to make it out of the so-called Rat Race. I was struck with a great fear of
+        failure, which was compounded by school teachers and tutors pointing out that I would amount to nothing. Opening a downward spiral of unsuccessful
+        initiatives and entry-level jobs with no progress.
+      </p>
+      <p class="leading-relaxed">
+        It would take me around 16 years to develop the capacity to see past other people's opinions and acquire momentum in trying new activities, regardless
+        of the drawbacks and dangers involved. Allow me to attempt to be alright with unforeseen situations and find the strength to face any difficulties that
+        may arise. It feels like a new beginning, but it's really simply the start of the next chapter.
+      </p>
+      <p class="leading-relaxed">You could call this my <b class="underline underline-offset-4">Just Do It</b> phase against all odds.</p>
+    </div>
   </div>
 </div>
