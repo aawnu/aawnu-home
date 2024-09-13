@@ -74,85 +74,75 @@
 
   <div class="container bg-slate-50 bg-[url(/src/bg/seamless_paper_texture.png)] px-8 py-12 shadow-inner 2xl:rounded-xl">
     <div class="grid auto-rows-max grid-cols-2 items-center justify-center gap-x-12 gap-y-8 sm:grid-cols-3 lg:grid-cols-5">
-      <div class="flex items-center justify-center">
-        <HoverCard.Root>
-          <HoverCard.Trigger>
-            <Proxyseed class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
-          </HoverCard.Trigger>
-          <HoverCard.Content class="w-full max-w-96">
-            <p class="leading-normal">Intermediary company to invest in interesting people and business ventures.</p>
-            <p class="mt-2 text-sm font-bold leading-tight">
-              <a class="text-primary" href="mailto:aaw@proxyseed.com" target="_blank" rel="noopener noreferrer">
-                <PaperPlaneTilt class="text-icon" weight="bold" /> aaw@proxyseed.com
-              </a>
-            </p>
-          </HoverCard.Content>
-        </HoverCard.Root>
-      </div>
+      <HoverCard.Root>
+        <HoverCard.Trigger class="flex items-center justify-center">
+          <Proxyseed class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
+        </HoverCard.Trigger>
+        <HoverCard.Content class="w-full max-w-96">
+          <p class="leading-normal">Intermediary company to invest in interesting people and business ventures.</p>
+          <p class="mt-2 text-sm font-bold leading-tight">
+            <a class="text-primary" href="mailto:aaw@proxyseed.com" target="_blank" rel="noopener noreferrer">
+              <PaperPlaneTilt class="text-icon" weight="bold" /> aaw@proxyseed.com
+            </a>
+          </p>
+        </HoverCard.Content>
+      </HoverCard.Root>
 
-      <div class="flex items-center justify-center">
-        <HoverCard.Root>
-          <HoverCard.Trigger>
-            <Northbased class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
-          </HoverCard.Trigger>
-          <HoverCard.Content class="w-full max-w-96">
-            <p class="leading-normal">Helping businesses be present and/or bring their infrastructure online.</p>
-            <p class="mt-2 text-sm font-bold leading-tight">
-              <a class="text-primary" href="http://northbased.net?ref=aaw.nu" target="_blank" rel="noopener noreferrer">
-                <ArrowSquareOut class="text-icon" weight="bold" /> Northbased.net
-              </a>
-            </p>
-          </HoverCard.Content>
-        </HoverCard.Root>
-      </div>
+      <HoverCard.Root>
+        <HoverCard.Trigger class="flex items-center justify-center">
+          <Northbased class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
+        </HoverCard.Trigger>
+        <HoverCard.Content class="w-full max-w-96">
+          <p class="leading-normal">Helping businesses be present and/or bring their infrastructure online.</p>
+          <p class="mt-2 text-sm font-bold leading-tight">
+            <a class="text-primary" href="http://northbased.net?ref=aaw.nu" target="_blank" rel="noopener noreferrer">
+              <ArrowSquareOut class="text-icon" weight="bold" /> Northbased.net
+            </a>
+          </p>
+        </HoverCard.Content>
+      </HoverCard.Root>
 
-      <div class="flex items-center justify-center">
-        <HoverCard.Root>
-          <HoverCard.Trigger>
-            <Skaber class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
-          </HoverCard.Trigger>
-          <HoverCard.Content class="w-full max-w-96">
-            <p class="leading-normal">Helping content creators collaborate with businesses more transparently.</p>
-            <p class="mt-2 text-sm font-bold leading-tight">
-              <a class="text-primary" href="http://skaber.net?ref=aaw.nu" target="_blank" rel="noopener noreferrer">
-                <ArrowSquareOut class="text-icon" weight="bold" /> Skaber.net
-              </a>
-            </p>
-          </HoverCard.Content>
-        </HoverCard.Root>
-      </div>
+      <HoverCard.Root>
+        <HoverCard.Trigger class="flex items-center justify-center">
+          <Skaber class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
+        </HoverCard.Trigger>
+        <HoverCard.Content class="w-full max-w-96">
+          <p class="leading-normal">Helping content creators collaborate with businesses more transparently.</p>
+          <p class="mt-2 text-sm font-bold leading-tight">
+            <a class="text-primary" href="http://skaber.net?ref=aaw.nu" target="_blank" rel="noopener noreferrer">
+              <ArrowSquareOut class="text-icon" weight="bold" /> Skaber.net
+            </a>
+          </p>
+        </HoverCard.Content>
+      </HoverCard.Root>
 
-      <div class="flex items-center justify-center">
-        <HoverCard.Root>
-          <HoverCard.Trigger>
-            <Streampo1nt class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
-          </HoverCard.Trigger>
-          <HoverCard.Content class="w-full max-w-96">
-            <p class="leading-normal">Promoting organisations and events through content production and influencers.</p>
-            <p class="mt-2 text-sm font-bold leading-tight">
-              <a class="text-primary" href="http://streampo1nt.com?ref=aaw.nu" target="_blank" rel="noopener noreferrer">
-                <ArrowSquareOut class="text-icon" weight="bold" /> Streampo1nt.com
-              </a>
-            </p>
-          </HoverCard.Content>
-        </HoverCard.Root>
-      </div>
+      <HoverCard.Root>
+        <HoverCard.Trigger class="flex items-center justify-center">
+          <Streampo1nt class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
+        </HoverCard.Trigger>
+        <HoverCard.Content class="w-full max-w-96">
+          <p class="leading-normal">Promoting organisations and events through content production and influencers.</p>
+          <p class="mt-2 text-sm font-bold leading-tight">
+            <a class="text-primary" href="http://streampo1nt.com?ref=aaw.nu" target="_blank" rel="noopener noreferrer">
+              <ArrowSquareOut class="text-icon" weight="bold" /> Streampo1nt.com
+            </a>
+          </p>
+        </HoverCard.Content>
+      </HoverCard.Root>
 
-      <div class="flex items-center justify-center">
-        <HoverCard.Root>
-          <HoverCard.Trigger>
-            <Finansteori class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
-          </HoverCard.Trigger>
-          <HoverCard.Content class="w-full max-w-96">
-            <p class="leading-normal">Danish blog about improving personal finances and how to start investing.</p>
-            <p class="mt-2 text-sm font-bold leading-tight">
-              <a class="text-primary" href="http://finansteori.dk?ref=aaw.nu" target="_blank" rel="noopener noreferrer">
-                <ArrowSquareOut class="text-icon" weight="bold" /> Finansteori.dk
-              </a>
-            </p>
-          </HoverCard.Content>
-        </HoverCard.Root>
-      </div>
+      <HoverCard.Root>
+        <HoverCard.Trigger class="flex items-center justify-center">
+          <Finansteori class="h-full max-h-[4rem] w-full max-w-[12rem] fill-slate-700" />
+        </HoverCard.Trigger>
+        <HoverCard.Content class="w-full max-w-96">
+          <p class="leading-normal">Danish blog about improving personal finances and how to start investing.</p>
+          <p class="mt-2 text-sm font-bold leading-tight">
+            <a class="text-primary" href="http://finansteori.dk?ref=aaw.nu" target="_blank" rel="noopener noreferrer">
+              <ArrowSquareOut class="text-icon" weight="bold" /> Finansteori.dk
+            </a>
+          </p>
+        </HoverCard.Content>
+      </HoverCard.Root>
     </div>
   </div>
 </div>
