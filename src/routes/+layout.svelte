@@ -59,17 +59,17 @@
       <div class="flex flex-wrap items-center justify-between gap-x-8 gap-y-2">
         <div class="flex flex-wrap items-center gap-x-8 gap-y-2">
           <div>2024 &copy; Alex Ahlgreen Westergaard</div>
-          <div><GlobeX weight="light" class="inline-block" /> Central Jutland, Denmark</div>
+          <div><GlobeX weight="light" class="text-icon" /> Central Jutland, Denmark</div>
         </div>
         <div class="flex flex-wrap items-center gap-x-8 gap-y-2">
           <div>
             <a class="text-primary" href="/src/diploma/gdpr-da-diplom-neo-compliance.pdf" target="_blank">
-              <Certificate weight="light" class="inline-block fill-foreground" /> GDPR Compliant
+              <Certificate weight="light" class="text-icon fill-foreground" /> GDPR Compliant
             </a>
           </div>
           <div>
             <a class="text-primary" href="/privacy">
-              <Handshake weight="light" class="inline-block fill-foreground" /> Your Privacy
+              <Handshake weight="light" class="text-icon fill-foreground" /> Your Privacy
             </a>
           </div>
         </div>
