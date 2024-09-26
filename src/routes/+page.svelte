@@ -41,8 +41,8 @@
 
 <div class="herobg">
   <div class="px-4">
-    <div class="container grid grid-cols-1 items-center py-16">
-      <div class="z-10 col-start-1 row-start-1">
+    <div class="container grid grid-cols-1 lg:grid-cols-3 items-center py-16">
+      <div class="lg:col-span-2">
         <h1 class="text-center text-4xl font-black !leading-tight sm:text-5xl md:text-6xl lg:text-left">
           <span class="inline text-slate-900 md:block">I develop web software,</span>
           <span class="inline text-slate-800 md:block">invest in businesses &amp;</span>
@@ -54,20 +54,8 @@
           </Button>
         </div>
       </div>
-      <div class="col-start-1 row-start-1 flex flex-wrap items-center justify-center gap-4 md:flex-nowrap lg:justify-end">
-        <img
-          class="hidden h-[50vh] max-h-[28rem] rounded-xl opacity-[.20] sm:block lg:opacity-[.10]"
-          src="/src/me/alex-in-blazer.jpg"
-          alt="Alex with icecream" />
-        <img
-          class="hidden h-[50vh] max-h-[28rem] rounded-xl opacity-[.20] lg:opacity-[.30] xl:block"
-          src="/src/me/alex-with-icecream.jpg"
-          alt="Alex with icecream" />
-        <img
-          class="hidden h-[50vh] max-h-[28rem] rounded-xl opacity-[.20] md:block lg:opacity-[.40] xl:opacity-[.60]"
-          src="/src/me/alex-in-jordan-tshirt.jpg"
-          alt="Alex in Jordan T-Shirt" />
-        <img class="block h-[50vh] max-h-[28rem] rounded-xl opacity-[.20] lg:opacity-100" src="/src/me/alex-in-suit.jpg" alt="Alex in Suit" />
+      <div class="row-start-1 lg:row-auto flex items-center justify-center">
+        <img class="max-h-[14rem] lg:max-h-[28rem] rounded-full bg-primary" src="/src/me/alex-profile.png" alt="Alex with icecream" />
       </div>
     </div>
   </div>

@@ -59,7 +59,7 @@
       <div class="flex flex-wrap items-center justify-between gap-x-8 gap-y-2">
         <div class="flex flex-wrap items-center gap-x-8 gap-y-2">
           <div>2024 &copy; Alex Ahlgreen Westergaard</div>
-          <div><GlobeX weight="light" class="inline-block" /> Skive, Denmark</div>
+          <div><GlobeX weight="light" class="inline-block" /> Central Jutland, Denmark</div>
         </div>
         <div class="flex flex-wrap items-center gap-x-8 gap-y-2">
           <div>
