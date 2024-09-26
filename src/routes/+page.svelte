@@ -1,7 +1,5 @@
 <script lang="ts">
   import ArrowSquareOut from 'phosphor-svelte/lib/ArrowSquareOut'
-  import LinkedinLogo from 'phosphor-svelte/lib/LinkedinLogo'
-  import GithubLogo from 'phosphor-svelte/lib/GithubLogo'
   import PaperPlaneTilt from 'phosphor-svelte/lib/PaperPlaneTilt'
   import Button from '$lib/components/ui/button/button.svelte'
   import Northbased from '$lib/icons/northbased.svelte'
@@ -25,6 +23,20 @@
   <meta property="og:profile:first_name" content="Alex" />
   <meta property="og:profile:last_name" content="Ahlgreen Westergaard" />
   <meta property="og:profile:gender" content="male" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "AboutPage",
+      "about": {
+        "@type": "Thing",
+        "url": "https://aaw.nu/",
+        "name": "Alex Ahlgreen Westergaard",
+        "description": "I develop web software, invest in businesses & play video games."
+      },
+      "copyrightYear": "2024",
+      "url": "https://aaw.nu/"
+    }
+  </script>
 </svelte:head>
 
 <div class="herobg">
@@ -37,21 +49,9 @@
           <span class="inline text-slate-700 md:block">play video games.</span>
         </h1>
         <div class="mt-8 flex justify-center gap-x-2 lg:justify-start">
-          <a href="mailto:aaw@aaw.nu" target="_blank" rel="noopener noreferrer">
-            <Button class="font-black">
-              <PaperPlaneTilt class="mr-2 text-lg leading-none" weight="bold" /> I'm available for hire!
-            </Button>
-          </a>
-          <a class="group" href="https://linkedin.com/in/alexwestergaard/" target="_blank" rel="noopener noreferrer">
-            <Button size="icon" variant="outline">
-              <LinkedinLogo class="text-lg leading-none group-hover:fill-primary" />
-            </Button>
-          </a>
-          <a class="group" href="https://github.com/aawnu" target="_blank" rel="noopener noreferrer">
-            <Button size="icon" variant="outline">
-              <GithubLogo class="text-lg leading-none group-hover:fill-primary" />
-            </Button>
-          </a>
+          <Button class="font-black" size="lg" href="mailto:aaw@aaw.nu" target="_blank" rel="noopener noreferrer">
+            <PaperPlaneTilt class="mr-2 text-lg leading-none" weight="bold" /> I'm available for hire!
+          </Button>
         </div>
       </div>
       <div class="col-start-1 row-start-1 flex flex-wrap items-center justify-center gap-4 md:flex-nowrap lg:justify-end">
@@ -148,26 +148,6 @@
           </p>
         </HoverCard.Content>
       </HoverCard.Root>
-    </div>
-  </div>
-</div>
-
-<div class="col-start-1 col-end-2 row-start-2 row-end-3">
-  <div class="container max-w-screen-md px-8 py-12">
-    <div class="space-y-2">
-      <h2 class="text-xl font-medium leading-none"><span class="font-black">Atychiphobia:</span> The Rat Race Begins</h2>
-      <p class="leading-relaxed">
-        I began my business adventure at the age of 12-13, driven by the fear that the government could turn your life upside down at any time. I'm networking
-        with and looking into business owners all across the world to figure out how to make it out of the so-called Rat Race. I was struck with a great fear of
-        failure, which was compounded by school teachers and tutors pointing out that I would amount to nothing. Opening a downward spiral of unsuccessful
-        initiatives and entry-level jobs with no progress.
-      </p>
-      <p class="leading-relaxed">
-        It would take me around 16 years to develop the capacity to see past other people's opinions and acquire momentum in trying new activities, regardless
-        of the drawbacks and dangers involved. Allow me to attempt to be alright with unforeseen situations and find the strength to face any difficulties that
-        may arise. It feels like a new beginning, but it's really simply the start of the next chapter.
-      </p>
-      <p class="leading-relaxed">You could call this my <b class="underline underline-offset-4">Just Do It</b> phase against all odds.</p>
     </div>
   </div>
 </div>
