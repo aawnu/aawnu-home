@@ -7,15 +7,24 @@
   import GlobeX from 'phosphor-svelte/lib/GlobeX'
   import Certificate from 'phosphor-svelte/lib/Certificate'
   import Handshake from 'phosphor-svelte/lib/Handshake'
-  import StackOverflowLogo from 'phosphor-svelte/lib/StackOverflowLogo'
+  import PuzzlePiece from 'phosphor-svelte/lib/PuzzlePiece'
   import Button from '$lib/components/ui/button/button.svelte'
+  import Separator from '$lib/components/ui/separator/separator.svelte'
+  import { ModeWatcher } from 'mode-watcher'
+  import Lightswitch from '$lib/components/ui/lightswitch/lightswitch.svelte'
 </script>
 
-<div class="min-h-[75vh]">
+<ModeWatcher defaultMode="system" />
+
+<div class="min-h-[calc(100vh-8rem)]">
   <header class="px-8">
     <div class="container flex flex-wrap items-center justify-between gap-x-8 gap-y-2 py-8">
       <a class="text-xl font-black hover:text-primary" href="/"> AAW </a>
-      <nav>
+      <nav class="flex items-center">
+        <Lightswitch />
+
+        <span class="mx-2 block h-full w-0 border-l border-l-primary">&nbsp;</span>
+
         <Button
           href="https://instagram.com/aawnu"
           target="_blank"
@@ -62,6 +71,11 @@
           <div><GlobeX weight="light" class="text-icon" /> Central Jutland, Denmark</div>
         </div>
         <div class="flex flex-wrap items-center gap-x-8 gap-y-2">
+          <div>
+            <a class="text-primary" href="https://www.16personalities.com/profiles/f53cd5b80faca" target="_blank" rel="noopener noreferrer">
+              <PuzzlePiece weight="light" class="text-icon fill-foreground" /> INFJ-A
+            </a>
+          </div>
           <div>
             <a class="text-primary" href="/src/diploma/gdpr-da-diplom-neo-compliance.pdf" target="_blank">
               <Certificate weight="light" class="text-icon fill-foreground" /> GDPR Compliant
