@@ -22,7 +22,7 @@
       <nav class="flex items-center">
         <Lightswitch />
 
-        <span class="mx-2 block h-full w-0 border-l border-l-mute-foreground">&nbsp;</span>
+        <span class="mx-2 block h-full w-0 border-l-2 border-l-muted">&nbsp;</span>
 
         <Button
           href="https://instagram.com/aawnu"
