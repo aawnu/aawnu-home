@@ -7,15 +7,23 @@
   import GlobeX from 'phosphor-svelte/lib/GlobeX'
   import Certificate from 'phosphor-svelte/lib/Certificate'
   import Handshake from 'phosphor-svelte/lib/Handshake'
-  import StackOverflowLogo from 'phosphor-svelte/lib/StackOverflowLogo'
+  import UserFocus from 'phosphor-svelte/lib/UserFocus'
   import Button from '$lib/components/ui/button/button.svelte'
+  import { ModeWatcher } from 'mode-watcher'
+  import Lightswitch from '$lib/components/ui/lightswitch/lightswitch.svelte'
 </script>
 
-<div class="min-h-[75vh]">
+<ModeWatcher defaultMode="system" />
+
+<div class="min-h-[calc(100vh-8rem)]">
   <header class="px-8">
     <div class="container flex flex-wrap items-center justify-between gap-x-8 gap-y-2 py-8">
       <a class="text-xl font-black hover:text-primary" href="/"> AAW </a>
-      <nav>
+      <nav class="flex items-center">
+        <Lightswitch />
+
+        <span class="mx-2 block h-full w-0 border-l border-l-mute-foreground">&nbsp;</span>
+
         <Button
           href="https://instagram.com/aawnu"
           target="_blank"
@@ -43,15 +51,6 @@
           variant="ghost">
           <GithubLogo class="group-hover:fill-primary" />
         </Button>
-        <Button
-          href="https://stackoverflow.com/users/1777189/alex-ahlgreen-westergaard"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="group text-lg hover:bg-transparent"
-          size="icon"
-          variant="ghost">
-          <StackOverflowLogo class="group-hover:fill-primary" />
-        </Button>
         <Button href="mailto:aaw@aaw.nu" target="_blank" rel="noopener noreferrer" class="group text-lg hover:bg-transparent" size="icon" variant="ghost">
           <PaperPlaneTilt class="group-hover:fill-primary" />
         </Button>
@@ -68,17 +67,22 @@
       <div class="flex flex-wrap items-center justify-between gap-x-8 gap-y-2">
         <div class="flex flex-wrap items-center gap-x-8 gap-y-2">
           <div>2024 &copy; Alex Ahlgreen Westergaard</div>
-          <div><GlobeX weight="light" class="inline-block" /> Skive, Denmark</div>
+          <div><GlobeX weight="light" class="text-icon" /> Central Jutland, Denmark</div>
         </div>
         <div class="flex flex-wrap items-center gap-x-8 gap-y-2">
           <div>
+            <a class="text-primary" href="https://www.16personalities.com/profiles/f53cd5b80faca" target="_blank" rel="noopener noreferrer">
+              <UserFocus weight="light" class="text-icon fill-foreground" /> ENTP-A
+            </a>
+          </div>
+          <div>
             <a class="text-primary" href="/src/diploma/gdpr-da-diplom-neo-compliance.pdf" target="_blank">
-              <Certificate weight="light" class="inline-block fill-foreground" /> GDPR Compliant
+              <Certificate weight="light" class="text-icon fill-foreground" /> GDPR Compliant
             </a>
           </div>
           <div>
             <a class="text-primary" href="/privacy">
-              <Handshake weight="light" class="inline-block fill-foreground" /> Your Privacy
+              <Handshake weight="light" class="text-icon fill-foreground" /> Your Privacy
             </a>
           </div>
         </div>
