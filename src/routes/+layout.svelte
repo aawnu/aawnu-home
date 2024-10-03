@@ -9,7 +9,6 @@
   import Handshake from 'phosphor-svelte/lib/Handshake'
   import UserFocus from 'phosphor-svelte/lib/UserFocus'
   import Button from '$lib/components/ui/button/button.svelte'
-  import Separator from '$lib/components/ui/separator/separator.svelte'
   import { ModeWatcher } from 'mode-watcher'
   import Lightswitch from '$lib/components/ui/lightswitch/lightswitch.svelte'
 </script>
@@ -23,7 +22,7 @@
       <nav class="flex items-center">
         <Lightswitch />
 
-        <span class="mx-2 block h-full w-0 border-l border-l-primary">&nbsp;</span>
+        <span class="mx-2 block h-full w-0 border-l border-l-mute-foreground">&nbsp;</span>
 
         <Button
           href="https://instagram.com/aawnu"
