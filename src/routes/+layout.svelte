@@ -7,7 +7,7 @@
   import GlobeX from 'phosphor-svelte/lib/GlobeX'
   import Certificate from 'phosphor-svelte/lib/Certificate'
   import Handshake from 'phosphor-svelte/lib/Handshake'
-  import PuzzlePiece from 'phosphor-svelte/lib/PuzzlePiece'
+  import UserFocus from 'phosphor-svelte/lib/UserFocus'
   import Button from '$lib/components/ui/button/button.svelte'
   import Separator from '$lib/components/ui/separator/separator.svelte'
   import { ModeWatcher } from 'mode-watcher'
@@ -73,7 +73,7 @@
         <div class="flex flex-wrap items-center gap-x-8 gap-y-2">
           <div>
             <a class="text-primary" href="https://www.16personalities.com/profiles/f53cd5b80faca" target="_blank" rel="noopener noreferrer">
-              <PuzzlePiece weight="light" class="text-icon fill-foreground" /> INFJ-A
+              <UserFocus weight="light" class="text-icon fill-foreground" /> ENTP-A
             </a>
           </div>
           <div>
