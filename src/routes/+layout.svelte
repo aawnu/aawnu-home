@@ -11,6 +11,11 @@
   import Button from '$lib/components/ui/button/button.svelte'
   import { ModeWatcher } from 'mode-watcher'
   import Lightswitch from '$lib/components/ui/lightswitch/lightswitch.svelte'
+  interface Props {
+    children?: import('svelte').Snippet;
+  }
+
+  let { children }: Props = $props();
 </script>
 
 <ModeWatcher defaultMode="system" />
@@ -58,7 +63,7 @@
     </div>
   </header>
 
-  <slot />
+  {@render children?.()}
 </div>
 
 <footer>
