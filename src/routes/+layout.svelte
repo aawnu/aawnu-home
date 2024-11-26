@@ -11,17 +11,18 @@
   import Button from '$lib/components/ui/button/button.svelte'
   import { ModeWatcher } from 'mode-watcher'
   import Lightswitch from '$lib/components/ui/lightswitch/lightswitch.svelte'
+
   interface Props {
-    children?: import('svelte').Snippet;
+    children?: import('svelte').Snippet
   }
 
-  let { children }: Props = $props();
+  let { children }: Props = $props()
 </script>
 
 <ModeWatcher defaultMode="system" />
 
 <div class="min-h-[calc(100vh-8rem)]">
-  <header class="px-8">
+  <header>
     <div class="container flex flex-wrap items-center justify-between gap-x-8 gap-y-2 py-8">
       <a class="text-xl font-black hover:text-primary" href="/"> AAW </a>
       <nav class="flex items-center">
@@ -29,34 +30,22 @@
 
         <span class="mx-2 block h-full w-0 border-l-2 border-l-muted">&nbsp;</span>
 
-        <Button
-          href="https://instagram.com/aawnu"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="group text-lg hover:bg-transparent"
-          size="icon"
-          variant="ghost">
+        <Button href="https://instagram.com/aawnu" target="_blank" rel="noopener noreferrer" class="group hover:bg-transparent" size="icon" variant="ghost">
           <InstagramLogo class="group-hover:fill-primary" />
         </Button>
         <Button
           href="https://linkedin.com/in/alexwestergaard/"
           target="_blank"
           rel="noopener noreferrer"
-          class="group text-lg hover:bg-transparent"
+          class="group hover:bg-transparent"
           size="icon"
           variant="ghost">
           <LinkedinLogo class="group-hover:fill-primary" />
         </Button>
-        <Button
-          href="https://github.com/aawnu"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="group text-lg hover:bg-transparent"
-          size="icon"
-          variant="ghost">
+        <Button href="https://github.com/aawnu" target="_blank" rel="noopener noreferrer" class="group hover:bg-transparent" size="icon" variant="ghost">
           <GithubLogo class="group-hover:fill-primary" />
         </Button>
-        <Button href="mailto:aaw@aaw.nu" target="_blank" rel="noopener noreferrer" class="group text-lg hover:bg-transparent" size="icon" variant="ghost">
+        <Button href="mailto:aaw@aaw.nu" target="_blank" rel="noopener noreferrer" class="group hover:bg-transparent" size="icon" variant="ghost">
           <PaperPlaneTilt class="group-hover:fill-primary" />
         </Button>
       </nav>
@@ -67,7 +56,7 @@
 </div>
 
 <footer>
-  <div class="px-8">
+  <div>
     <div class="container py-4">
       <div class="flex flex-wrap items-center justify-between gap-x-8 gap-y-2">
         <div class="flex flex-wrap items-center gap-x-8 gap-y-2">
