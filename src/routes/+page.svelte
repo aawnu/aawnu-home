@@ -1,12 +1,8 @@
 <script lang="ts">
-  import ArrowSquareOut from 'phosphor-svelte/lib/ArrowSquareOut'
-  import PaperPlaneTilt from 'phosphor-svelte/lib/PaperPlaneTilt'
-  import Button from '$lib/components/ui/button/button.svelte'
   import Northbased from '$lib/icons/northbased.svelte'
   import Proxyseed from '$lib/icons/proxyseed.svelte'
   import Skaber from '$lib/icons/skaber.svelte'
   import Finansteori from '$lib/icons/finansteori.svelte'
-  import * as Dialog from '$lib/components/ui/dialog'
 </script>
 
 <svelte:head>
