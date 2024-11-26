@@ -23,11 +23,27 @@ const config: Config = {
 				foreground: "hsl(var(--foreground) / <alpha-value>)",
 				primary: {
 					DEFAULT: "hsl(var(--primary) / <alpha-value>)",
-					foreground: "hsl(var(--primary-foreground) / <alpha-value>)"
+					foreground: "hsl(var(--primary-foreground) / <alpha-value>)",
+					100: 'hsl(37 95% 92% / <alpha-value>)',
+					200: 'hsl(37 95% 80% / <alpha-value>)',
+					300: 'hsl(37 95% 67% / <alpha-value>)',
+					400: 'hsl(37 95% 55% / <alpha-value>)',
+					500: 'hsl(37 95% 42% / <alpha-value>)',
+					600: 'hsl(37 95% 30% / <alpha-value>)',
+					700: 'hsl(37 95% 17% / <alpha-value>)',
+					800: 'hsl(37 95% 5% / <alpha-value>)',
 				},
 				secondary: {
 					DEFAULT: "hsl(var(--secondary) / <alpha-value>)",
-					foreground: "hsl(var(--secondary-foreground) / <alpha-value>)"
+					foreground: "hsl(var(--secondary-foreground) / <alpha-value>)",
+					100: 'hsl(337 95% 92% / <alpha-value>)',
+					200: 'hsl(337 95% 80% / <alpha-value>)',
+					300: 'hsl(337 95% 67% / <alpha-value>)',
+					400: 'hsl(337 95% 55% / <alpha-value>)',
+					500: 'hsl(337 95% 42% / <alpha-value>)',
+					600: 'hsl(337 95% 30% / <alpha-value>)',
+					700: 'hsl(337 95% 17% / <alpha-value>)',
+					800: 'hsl(337 95% 5% / <alpha-value>)',
 				},
 				destructive: {
 					DEFAULT: "hsl(var(--destructive) / <alpha-value>)",
@@ -67,7 +83,8 @@ const config: Config = {
 				sm: "calc(var(--radius) - 4px)"
 			},
 			fontFamily: {
-				sans: [...fontFamily.sans]
+				sans: [...fontFamily.sans],
+				manrope: ['Manrope Variable', ...fontFamily.sans],
 			},
 			keyframes: {
 				"accordion-down": {
