@@ -30,7 +30,7 @@
 
         <span class="mx-2 block h-full w-0 border-l-2 border-l-muted">&nbsp;</span>
 
-        <Button href="https://instagram.com/aawnu" target="_blank" rel="noopener noreferrer" class="group hover:bg-transparent" size="icon" variant="ghost">
+        <Button href="https://instagram.com/aawmbs" target="_blank" rel="noopener noreferrer" class="group hover:bg-transparent" size="icon" variant="ghost">
           <InstagramLogo class="group-hover:fill-primary" />
         </Button>
         <Button
