@@ -14,10 +14,10 @@ export default function Contact() {
 		<section className="container mx-auto px-4 py-24" id="contact">
 			<div className="mx-auto max-w-screen-lg">
 				<div className="text-center">
-					<h2 className="mb-4 font-nota-sans text-3xl font-bold">Let's Connect</h2>
+					<h2 className="mb-4 font-nota-sans text-3xl font-bold">Let’s Connect</h2>
 					<p className="mx-auto mb-8 max-w-2xl text-lg text-muted-foreground">
-						Whether you're interested in software development, system integration, or want to
-						discuss investment opportunities, I'm always open to new challenges and collaborations.
+						Whether you’re interested in software development, system integration, or want to
+						discuss investment opportunities, I’m always open to new challenges and collaborations.
 					</p>
 				</div>
 
