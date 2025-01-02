@@ -1,15 +1,10 @@
 import ProjectList from '@/components/section/projectslist';
-import { GetStaticProps } from 'next';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
 	title: 'Projects | AAW',
 	description:
 		'A comprehensive list of projects by Alex Westergaard, including both current and past endeavors.'
-};
-
-export const getStaticProps: GetStaticProps = async () => {
-	return { props: {} };
 };
 
 export default function ProjectsPage() {
