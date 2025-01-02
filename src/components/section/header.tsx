@@ -34,11 +34,11 @@ export default function Header() {
 				</Link>
 				<div className="flex items-center gap-4">
 					<ThemeSwitch variant="outline" size="icon" />
-					<Link href="https://instagram.com/alexwestergaard" target="_blank" className="group">
+					<Link href="https://instagram.com/aawmbs" target="_blank" className="group">
 						<InstagramLogo className="h-5 w-5 group-hover:fill-primary" />
 						<span className="sr-only">Instagram</span>
 					</Link>
-					<Link href="https://github.com/alexwestergaard" target="_blank" className="group">
+					<Link href="https://github.com/aawnu" target="_blank" className="group">
 						<GithubLogo className="h-5 w-5 group-hover:fill-primary" />
 						<span className="sr-only">GitHub</span>
 					</Link>
