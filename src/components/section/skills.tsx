@@ -17,12 +17,13 @@ const skills = [
 	},
 	{
 		title: 'Web Analytics',
-		description: 'Google Analytics, Tag Manager, Data Studio',
+		description: 'Google Analytics, Tag Manager',
 		icon: Globe
 	},
 	{
 		title: 'Financial Analysis',
-		description: 'Investment Strategy, Market Analysis, Risk Management',
+		description:
+			'Investment instruments &amp; Vehicles, Budget Planning, Market Analysis, Risk Analysis',
 		icon: ChartLine
 	},
 	{
