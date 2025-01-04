@@ -89,7 +89,7 @@ export default function SupportedCreators() {
 
 				<Card ref={streamersRef} className="border-none bg-transparent shadow-none">
 					<CardHeader>
-						<CardTitle className="flex flex-col items-center justify-center gap-2">
+						<CardTitle className="flex flex-col items-center justify-center gap-2 text-center">
 							<motion.div
 								initial={{ opacity: 0, y: -20 }}
 								animate={streamersInView && { opacity: 1, y: 0 }}
