@@ -22,8 +22,7 @@ const skills = [
 	},
 	{
 		title: 'Financial Analysis',
-		description:
-			'Investment instruments &amp; Vehicles, Budget Planning, Market Analysis, Risk Analysis',
+		description: 'Instruments & Vehicles, Budget Planning, Market/Risk Analysis',
 		icon: ChartLine
 	},
 	{
