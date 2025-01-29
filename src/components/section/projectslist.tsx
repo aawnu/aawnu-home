@@ -52,7 +52,7 @@ const projects: Project[] = [
 		title: 'Finansteori',
 		image: FinansteoriSvg,
 		startDate: '2020',
-		endDate: null,
+		endDate: '2025',
 		description:
 			'Finansteori is a platform I created to provide beginner-friendly guidance on finance and investing. It is designed to help the Danish people enhance their financial literacy and make informed decisions. Covering topics such as stocks, taxes, and financial planning, it caters to both newcomers and seasoned investors. My goal is to help individuals understand financial concepts and learn how to improve their finances.',
 		links: [{ title: 'Website (Danish)', url: 'https://finansteori.dk/?ref=aaw.nu' }],
