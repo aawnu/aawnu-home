@@ -40,10 +40,9 @@ const projects: Project[] = [
 		title: 'SKABER',
 		image: SkaberSvg,
 		startDate: '2022',
-		endDate: null,
+		endDate: '2025',
 		description:
 			'SKABER connects content creators with brands by offering tailored tools and services for collaboration and partnerships. We build flexible solutions around a creator’s unique needs, empowering their growth without limiting opportunities. By keeping up with platforms like YouTube, Twitch, Instagram, TikTok, and Kick, we help creators stay competitive.',
-		links: [{ title: 'Website', url: 'https://skaber.net' }],
 		brandColor: '#ffba08',
 		imageClass: 'fill-white'
 	},
@@ -55,7 +54,6 @@ const projects: Project[] = [
 		endDate: '2025',
 		description:
 			'Finansteori is a platform I created to provide beginner-friendly guidance on finance and investing. It is designed to help the Danish people enhance their financial literacy and make informed decisions. Covering topics such as stocks, taxes, and financial planning, it caters to both newcomers and seasoned investors. My goal is to help individuals understand financial concepts and learn how to improve their finances.',
-		links: [{ title: 'Website (Danish)', url: 'https://finansteori.dk/?ref=aaw.nu' }],
 		brandColor: '#1a29ff',
 		imageClass: 'fill-white'
 	}
