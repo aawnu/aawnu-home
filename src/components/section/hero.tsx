@@ -4,6 +4,7 @@ import { buttonVariants } from '@/components/ui/button';
 import { ArrowRight } from '@phosphor-icons/react';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
+import Image from 'next/image';
 
 export default function Hero() {
 	return (
@@ -47,13 +48,16 @@ export default function Hero() {
 					initial={{ y: 50, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
 					transition={{ duration: 0.6, delay: 0.3 }}
-					className="relative flex items-center justify-center"
+					className="flex items-center justify-center"
 				>
-					<div className="z-30 aspect-square max-w-sm overflow-hidden rounded-full bg-primary">
-						<img
+					<div className="relative z-30 aspect-square h-full w-full max-w-sm rounded-full bg-primary">
+						<Image
+							unoptimized
+							width={300}
+							height={300}
 							src="/images/alex-westergaard-free.png"
 							alt="Alex Ahlgreen Westergaard"
-							className="h-full w-full object-cover"
+							className="absolute h-[calc(100%+1px)] w-[calc(100%+1px)] rounded-full object-cover"
 						/>
 					</div>
 				</motion.div>
