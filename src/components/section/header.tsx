@@ -25,7 +25,7 @@ export default function Header() {
 		<nav
 			className={cn(
 				'sticky top-0 z-50 w-full border-b transition-all duration-500',
-				isScrolled ? 'bg-background/85 backdrop-blur-sm' : 'border-b-transparent'
+				isScrolled ? 'bg-background/85 backdrop-blur-xs' : 'border-b-transparent'
 			)}
 		>
 			<div className="container mx-auto flex items-center justify-between px-4 py-4">

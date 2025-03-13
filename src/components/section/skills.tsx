@@ -40,7 +40,7 @@ export default function Skills() {
 
 	return (
 		<section ref={ref} className="bg-muted/50">
-			<div className="container mx-auto max-w-screen-xl px-4 py-16">
+			<div className="container mx-auto max-w-(--breakpoint-xl) px-4 py-16">
 				<h2 className="mb-8 font-nota-sans text-3xl font-bold">Core Competencies</h2>
 				<div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
 					{skills.map((skill, index) => {

@@ -53,7 +53,7 @@ export default function Experience() {
 	});
 
 	return (
-		<section ref={ref} className="container mx-auto max-w-screen-xl space-y-12 px-4 py-16">
+		<section ref={ref} className="container mx-auto max-w-(--breakpoint-xl) space-y-12 px-4 py-16">
 			<div>
 				<h2 className="mb-8 font-nota-sans text-3xl font-bold">Experience</h2>
 				<div className="mb-6 grid gap-6 lg:grid-cols-2">

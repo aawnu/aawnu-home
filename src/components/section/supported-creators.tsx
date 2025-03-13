@@ -51,7 +51,7 @@ export default function SupportedCreators() {
 
 	return (
 		<section className="bg-muted/50">
-			<div ref={masterRef} className="container mx-auto max-w-screen-xl px-4 py-16">
+			<div ref={masterRef} className="container mx-auto max-w-(--breakpoint-xl) px-4 py-16">
 				<h2 className="mb-8 font-nota-sans text-3xl font-bold">Content Creation & Streaming</h2>
 				<div className="mb-12 grid gap-8 md:grid-cols-2">
 					<motion.div

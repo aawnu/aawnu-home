@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 export default function Hero() {
 	return (
-		<section className="container mx-auto max-w-screen-xl px-4 py-24 md:py-32">
+		<section className="container mx-auto max-w-(--breakpoint-xl) px-4 py-24 md:py-32">
 			<div className="grid items-center gap-8 lg:grid-cols-2">
 				<motion.div
 					initial={{ y: 50, opacity: 0 }}

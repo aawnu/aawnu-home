@@ -12,7 +12,7 @@ export default function Contact() {
 
 	return (
 		<section className="container mx-auto px-4 py-24" id="contact">
-			<div className="mx-auto max-w-screen-lg">
+			<div className="mx-auto max-w-(--breakpoint-lg)">
 				<div className="text-center">
 					<h2 className="mb-4 font-nota-sans text-3xl font-bold">Let’s Connect</h2>
 					<p className="mx-auto mb-8 max-w-2xl text-lg text-muted-foreground">
@@ -26,7 +26,7 @@ export default function Contact() {
 						initial={{ x: -50, opacity: 0 }}
 						animate={inView && { x: 0, opacity: 1 }}
 						transition={{ duration: 0.6 }}
-						className="rounded-lg bg-muted/50 text-card-foreground shadow-sm"
+						className="rounded-lg bg-muted/50 text-card-foreground shadow-xs"
 					>
 						<CardHeader className="pb-4">
 							<CardTitle className="text-lg">Get in Touch</CardTitle>
@@ -56,7 +56,7 @@ export default function Contact() {
 						initial={{ x: 50, opacity: 0 }}
 						animate={inView && { x: 0, opacity: 1 }}
 						transition={{ duration: 0.6 }}
-						className="rounded-lg bg-muted/50 text-card-foreground shadow-sm"
+						className="rounded-lg bg-muted/50 text-card-foreground shadow-xs"
 					>
 						<CardHeader className="pb-4">
 							<CardTitle className="text-lg">Current Status</CardTitle>

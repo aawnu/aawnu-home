@@ -37,7 +37,7 @@ export default function Projects() {
 	});
 
 	return (
-		<section ref={ref} className="container mx-auto max-w-screen-xl px-4 py-16">
+		<section ref={ref} className="container mx-auto max-w-(--breakpoint-xl) px-4 py-16">
 			<h2 className="mb-8 font-nota-sans text-3xl font-bold">Featured Projects</h2>
 			<div className="grid grid-cols-2 gap-8 md:grid-cols-4">
 				{projects.map((project, index) => (
