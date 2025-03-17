@@ -32,7 +32,8 @@ const supportedCreators = [
 	{
 		name: 'melena_m',
 		image: '/images/melena_m-free.png',
-		twitch: 'https://www.twitch.tv/melena_m'
+		twitch: 'https://www.twitch.tv/melena_m',
+		instagram: 'https://www.instagram.com/melena_m_'
 	}
 ];
 
